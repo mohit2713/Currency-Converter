@@ -1,12 +1,73 @@
-# React + Vite
+# Currency Converter App 💱
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple currency converter built using **React**, **Vite**, **TailwindCSS**, and a **live currency exchange API**. Supports conversion between any global currencies with real-time exchange rates.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📦 Tech Stack
 
-## Expanding the ESLint configuration
+* [Vite](https://vitejs.dev/) - Fast build tool
+* [React](https://react.dev/) - UI library
+* [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS
+* [https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/${CurrencyName}.json] - Free live currency rates
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🌐 Live Demo
+
+**Live URL:** [https://beamish-paletas-1017b7.netlify.app/]
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/mohit2713/Currency-Converter.git
+cd currency-converter
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Set Up TailwindCSS
+
+Already configured. Ensure your `tailwind.config.js` and `index.css` include:
+
+```js
+// tailwind.config.js
+content: [
+  "./index.html",
+  "./src/**/*.{js,ts,jsx,tsx}"
+]
+```
+
+```css
+/* index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+### 4. Run the Dev Server
+
+```bash
+npm run dev
+```
+
+
+## ✨ Features
+
+* Convert between 100+ currencies
+* Real-time exchange rate updates
+* Swap currencies
+* Responsive & clean UI with Tailwind
+* Zero leading/trailing zero issues in input
+
+
+
+
